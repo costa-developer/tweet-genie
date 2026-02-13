@@ -1,73 +1,19 @@
-# Welcome to your Lovable project
+---
 
-## Project info
+# 🐦 AI Twitter Agency Bot
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A professional-grade automation engine built with **Next.js 15**, designed to manage brand presence on X (Twitter) autonomously. This bot leverages **Twitter API v2** and **OpenAI (GPT-4o)** to transform static accounts into active, engaging brand hubs.
 
-## How can I edit this code?
+### 📋 Project Overview
 
-There are several ways of editing your application.
+This project serves as a local-first automation suite for digital agencies. It streamlines the content lifecycle—from AI-assisted generation and automated scheduling to intelligent, context-aware replies—ensuring 24/7 engagement without manual oversight.
 
-**Use Lovable**
+### 🚀 Key Capabilities
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* **AI Content Engine:** Generates high-engagement tweets and threads using custom OpenAI prompts.
+* **Auto-Responder:** Scans mentions and uses AI to craft human-like, relevant replies to followers.
+* **Smart Scheduling:** Utilizes cron jobs and Vercel scheduled functions to post at optimal times.
+* **Modular Architecture:** Features a clean, scalable Next.js structure with dedicated API routes for local testing and production deployment.
+* **Safety First:** Includes built-in logic for rate-limit protection and activity logging to prevent spam flagging.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
