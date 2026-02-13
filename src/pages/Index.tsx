@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { Twitter } from "lucide-react";
+import { Twitter, Settings, BarChart3 } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import { TweetComposer } from "@/components/TweetComposer";
 import { ScheduledTweetsList } from "@/components/ScheduledTweetsList";
 import { ActivityLogs } from "@/components/ActivityLogs";
@@ -27,9 +29,21 @@ const Index = () => {
               <p className="text-xs text-muted-foreground">Automated tweet management</p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="h-2 w-2 animate-pulse-subtle rounded-full bg-success" />
-            <span className="text-sm text-muted-foreground">Connected</span>
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
+              <div className="h-2 w-2 animate-pulse-subtle rounded-full bg-success" />
+              <span className="text-sm text-muted-foreground">Connected</span>
+            </div>
+            <Link to="/analytics">
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground">
+                <BarChart3 className="h-5 w-5" />
+              </Button>
+            </Link>
+            <Link to="/settings">
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground">
+                <Settings className="h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </header>
