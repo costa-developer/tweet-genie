@@ -81,10 +81,22 @@ const Index = () => {
       <footer className="border-t py-6">
         <div className="container px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            Twitter Bot Agency • Built with Lovable Cloud
+            Twitter Bot Agency • Built with love by{" "}
+            <a
+              href="https://tendaigumunyu.co.za"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              Tendai Gumunyu
+            </a>
           </p>
           <p className="mt-2 text-xs text-muted-foreground/60">
-            💡 Set up a cron job to call <code className="rounded bg-muted px-1">/process-scheduled</code> every minute for automatic posting
+            💡 Set up a cron job to call{" "}
+            <code className="rounded bg-muted px-1">
+              /process-scheduled
+            </code>{" "}
+            every minute for automatic posting
           </p>
         </div>
       </footer>
